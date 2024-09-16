@@ -1,0 +1,88 @@
+.body{
+    background-color: rgba(0, 0, 0, 0.789);
+  }
+  h1{
+    color: beige;
+    font-family: cursive;
+  }
+  
+  #contenedor{
+    background-color: rgba(133, 131, 131, 0.844);
+    border-radius: 15px;
+    margin-top: 88px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 450PX;
+    height:502PX;
+    border: 2px solid rgb(145, 145, 212);
+  }
+  
+  #contenedor button  {
+    font-family: cursive;
+      font-size: 27px;
+      position: relative;
+      width: 109PX;
+      height: 100PX;
+      box-sizing: border-box;
+      text-align: center;
+      border-radius: 15px;
+      
+  
+  }
+  #contenedor button:hover{
+      
+      background-color: blue;
+      color: aliceblue;
+     
+  }
+  #visor{
+    
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 450PX;
+    height:83PX;
+    border: 2px solid rgb(145, 145, 212);
+    border-radius: 15px;
+    background-color: transparent;
+  }
+  #visor p{
+     margin-top: 15px;
+     font-size: 40px;
+     font-family: cursive;
+     height: 50px;
+     width: 450px; 
+     background-color:rgb(244, 244, 244) ;
+     color: rgb(12, 12, 12);
+     text-align: right;
+     border-radius: 15px;
+  }
+
+  .titulo{
+    text-align: center;
+  }
+
+  .input{
+    position: relative;
+      width: 109PX;
+      height: 100PX;
+      box-sizing: border-box;
+      text-align: center;
+      border-radius: 15px;
+  }
+  
+  #memoria{
+   
+    max-width: 52px;
+   
+    
+  }
+
+  .container2{
+    
+    height: 25px;
+    width: 100px;
+    background-color: aliceblue;
+
+  }
