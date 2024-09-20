@@ -48,7 +48,7 @@ resultado.addEventListener('click', () => {
         if (valorActual === '' || valorActual === '0') {
             pantalla.innerHTML = 'Error';
             setTimeout(() => {
-               alert("Idiota no se puede dividir por 0"); 
+               alert("No se puede dividir por 0"); 
             }, 3000);
         } else {
             pantalla.innerHTML = dividir(valorAnterior, valorActual);
